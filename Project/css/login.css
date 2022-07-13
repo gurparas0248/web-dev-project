@@ -1,0 +1,85 @@
+@import url('../css/fonts.css');
+
+html, body{
+    margin: 0%;
+    padding: 0;
+    background-image: url(/Assets/login/425171.jpg);    
+    background-size: cover;
+    background-position: center;
+    font-family: Abel;
+}
+
+
+
+.login-form{
+    width: 320px;
+    height: 420px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+    border-radius: 2rem;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border: white;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-form p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.login-form input{
+    width: 250px;
+    margin-bottom: 20px;
+    
+}
+
+.login-form input[type= "text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.login-form .btn{
+    padding: 13px;
+    border-radius: 2rem;
+    background: linear-gradient(120deg, #a1c4fd 0%, #b1379c 100%) ;
+    color: black;
+    border: white;
+    
+
+}
+
+.login-form .btn:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+   
+}

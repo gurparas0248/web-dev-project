@@ -1,0 +1,40 @@
+<html>
+<head>
+
+	<link rel="stylesheet" href="./css/login.css">
+
+<title>Login page</title>
+</head>
+<script type="text/javascript">
+function display(form){
+if (form.username.value=="techblog") { 
+		if (form.password.value=="techblog") {              
+										location="index.html" 
+											} else {
+													alert("Invalid Password")
+													}
+								} else {  alert("Invalid Username")
+										}
+						}
+			</script>			
+<body >
+	
+
+<div class="login-form">
+	
+		
+	
+	<img src="./Assets/login/male_boy_person_people_avatar_icon_159358.png" class="avatar">
+		<h1>Login Here</h1>
+		<form >
+			<p>Username</p>
+			<input class="username" type="text" name="username" placeholder="Enter Username"/><br><br>
+			<p>Password</p>
+			<input class="password" type="password" name="password" placeholder="Enter Passoword"/><br><br>
+			<input class="btn" type="button" value="Login" onClick="display(this.form)"/>
+
+		</form>
+</div>
+
+</body>
+</html>
